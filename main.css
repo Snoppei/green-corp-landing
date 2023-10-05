@@ -90,6 +90,12 @@ input {
     width: 500px;
 }
 
+.about__images {
+    display: flex;
+    align-items: start;
+
+}
+
 .form form {
     display: grid;
     grid-gap: 20px;
