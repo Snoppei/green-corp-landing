@@ -3,6 +3,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
 }
 
 select {
@@ -11,6 +15,26 @@ select {
 
 input {
     outline: none;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }   
+    to {
+        transform: rotate(360deg);
+    } 
+}
+
+.sun_rotation {
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.about__sun-image {
+    position: absolute;
 }
 
 .form__container {
@@ -90,11 +114,11 @@ input {
     width: 500px;
 }
 
-.about__images {
+/* .about__images {
     display: flex;
     align-items: start;
 
-}
+} */
 
 .form form {
     display: grid;
