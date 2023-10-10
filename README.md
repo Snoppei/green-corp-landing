@@ -1,3 +1,3 @@
 # green-corp-landing
-под мобилки стили сделать надо
+анимации сделать надо бы
 https://snoppei.github.io/green-corp-landing/
