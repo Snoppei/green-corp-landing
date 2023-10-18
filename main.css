@@ -104,7 +104,20 @@ input {
 }
 
 .about__info {
+    display: inline-block;
     max-width: 550px;
+    
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.about__images {
+    display: inline-block;
+
+    animation: fadeInRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 .about__sun-image {
@@ -116,11 +129,7 @@ input {
     width: 500px;
 }
 
-/* .about__images {
-    display: flex;
-    align-items: start;
 
-} */
 
 .form form {
     display: grid;
