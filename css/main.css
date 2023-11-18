@@ -19,6 +19,72 @@ input {
     outline: none;
 }
 
+
+.promo {
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    gap:0;
+    grid-template-rows: 1fr;
+}
+
+.promo__left {
+    background: url(../img/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+
+}
+
+.promo__right {
+    /* width: 50%; */
+    background-color: #dd5f26;
+    padding: 160px 60px 160px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo_card {
+    background-color: #fff;
+    padding: 30px 40px 30px 40px;
+    font-size: 20px;
+    height: auto;
+    line-height: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.promo_card p {
+    opacity: 0.8;
+}
+.promo_card p::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #ec6b29;
+}
+
+.order {
+    background-color: #107b1c;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 600;
+}
+
+.order i {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
 .card {
     padding: 35px 40px 25px 40px;
     border: 1px #D9E4E6 solid;
@@ -174,7 +240,7 @@ input {
     padding-top: 115px;
     padding-bottom: 115px;
     /* margin-left: 25px; */
-    background: url('img/back.png');
+    background: url(../img/back.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
