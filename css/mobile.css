@@ -2,7 +2,6 @@
 
     .promo {
         display: grid;
-        /* justify-content: space-between; */
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         height: auto;
@@ -15,11 +14,8 @@
         background-size: cover;
         background-position: center;
         height: auto;
-        /* flex-shrink: 0; */
         width: 100%;
-    
     }
-    
     .promo__right {
         grid-row: 1;
         background-color: #dd5f26;
@@ -73,13 +69,6 @@
         margin-right: 0;
         margin-bottom: 30px;
     }
-    
-
-    
-    /* .about{
-        padding-left: 10px;
-        padding-right: 10px;
-    } */
     header {
         display: flex;
         justify-content: space-between;
@@ -94,8 +83,6 @@
     .header__controls {
         display: flex;
         align-items: center;
-        /* padding-left: 10px;
-        padding-right: 10px; */
     }
 
     .about{
@@ -105,7 +92,6 @@
         align-items: center;
         padding-top: 50px;
         padding-bottom: 50px;
-        /* margin-left: 25px; */
         background: url('img/back.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -147,19 +133,14 @@
     .form h1 {
         font-size: 36px;
         line-height: 40px;
-        /* margin-left: 10px;
-        margin-right: 10px; */
+
     }
     .about__info h1 {
         font-size: 36px;
         line-height: 40px;
-        /* padding-left: 10px;
-        padding-right: 10px; */
+
     }
-    /* .about__info p {
-        /* padding-left: 10px;
-        padding-right: 10px;
-    } */
+
 
     button {
         font-family: 'Railway', sans-serif;
@@ -176,8 +157,6 @@
     footer {
         padding-top: 50px;
         padding-bottom: 50px;
-        /* padding-left: 20px;
-        padding-right: 20px; */
         padding-left: 10px;
         padding-right: 10px;
         font-size: 16px;
@@ -185,11 +164,6 @@
     }
 }
 @media (max-width: 1024px) and (min-width: 721px) {
-    /* .header__logo {
-        height: 20px;
-        padding-right: 10px;
-    } */
-
     .features {
         padding: 50px 10px 50px 10px;
         
@@ -228,12 +202,6 @@
     .about__image{
         width: 280px;
     }
-
-    
-    /* .about{
-        padding-left: 10px;
-        padding-right: 10px;
-    } */
     header {
         display: flex;
         justify-content: space-between;
@@ -248,8 +216,6 @@
     .header__controls {
         display: flex;
         align-items: center;
-        /* padding-left: 10px;
-        padding-right: 10px; */
     }
 
     .about{
@@ -259,7 +225,6 @@
         align-items: center;
         padding-top: 50px;
         padding-bottom: 50px;
-        /* margin-left: 25px; */
         background: url('img/back.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -296,26 +261,15 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* padding-left: 20px;
-        padding-right: 20px; */
     }
     .form h1 {
         font-size: 36px;
         line-height: 40px;
-        /* margin-left: 10px;
-        margin-right: 10px; */
     }
     .about__info h1 {
         font-size: 36px;
         line-height: 40px;
-        /* padding-left: 10px;
-        padding-right: 10px; */
     }
-    /* .about__info p {
-        padding-left: 10px;
-        padding-right: 10px;
-    } */
-
     button {
         font-family: 'Railway', sans-serif;
         font-size: 15px;
@@ -327,7 +281,6 @@
         box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
         padding: 15px;
     }
-
     footer {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -336,16 +289,13 @@
         font-size: 16px;
         font-weight: 600;
     }
-
     .promo {
         display: grid;
-        /* justify-content: space-between; */
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         height: auto;
         gap:0;
     }
-    
     .promo__left {
         grid-row: 2;
         background: url(../img/promo.jpg);
@@ -355,7 +305,6 @@
         flex-shrink: 0;
     
     }
-    
     .promo__right {
         grid-row: 1;
         background-color: #dd5f26;

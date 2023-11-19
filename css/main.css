@@ -22,7 +22,6 @@ input {
 
 .promo {
     display: grid;
-    /* justify-content: space-between; */
     grid-template-columns: 1fr 1fr;
     height: 700px;
     gap:0;
@@ -38,7 +37,6 @@ input {
 }
 
 .promo__right {
-    /* width: 50%; */
     background-color: #dd5f26;
     padding: 160px 60px 160px 60px;
     display: flex;
@@ -155,8 +153,6 @@ input {
 .features_feedback__right {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
-    /* justify-items: auto; */
 }
 .features_box {
     padding: 30px 40px 25px 40px;
@@ -239,7 +235,6 @@ input {
     align-items: center;
     padding-top: 115px;
     padding-bottom: 115px;
-    /* margin-left: 25px; */
     background: url(../img/back.png);
     background-repeat: no-repeat;
     background-position: center;
