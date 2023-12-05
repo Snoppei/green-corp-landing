@@ -20,7 +20,7 @@ class Snowflake {
         this.coral = COLORS[1];
         this.white = COLORS[0];
         this.alpha = 0.2;
-        this.size = generateDecimalBetween(7, 12);;
+        this.size = generateDecimalBetween(4, 6);;
         this.translateX = generateDecimalBetween(0, this.canvasWidth);
         this.translateY = generateDecimalBetween(0, this.canvasHeight);
         this.velocity = generateDecimalBetween(20, 30);
