@@ -205,6 +205,7 @@ input {
 
 .form {
     background-color: #1D263A;
+    background-color: rgb(178, 236, 250);
     color: #fff;
     padding-top: 115px;
     padding-bottom: 115px;
@@ -239,6 +240,16 @@ input {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.orb-canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    /* z-index: 1; */
 }
 
 .about h1 {
@@ -265,6 +276,7 @@ input {
 .about__info {
     display: inline-block;
     max-width: 550px;
+    position: relative;
     
     animation: fadeInLeft;
     animation-duration: 2s;
@@ -273,7 +285,7 @@ input {
 
 .about__images {
     display: inline-block;
-
+    position: relative;
     animation: fadeInRight;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -405,3 +417,4 @@ footer {
 .footer__links a {
     margin-bottom: 15px;
 }
+
