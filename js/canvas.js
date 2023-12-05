@@ -20,19 +20,19 @@ class Snowflake {
         this.coral = COLORS[1];
         this.white = COLORS[0];
         this.alpha = 0.2;
-        this.size = 15;
+        this.size = generateDecimalBetween(7, 12);;
         this.translateX = generateDecimalBetween(0, this.canvasWidth);
         this.translateY = generateDecimalBetween(0, this.canvasHeight);
-        this.velocity = generateDecimalBetween(20, 40);
+        this.velocity = generateDecimalBetween(20, 30);
         this.movementX = generateDecimalBetween(0, 4) / this.velocity;
         this.movementY = generateDecimalBetween(-10, -1) / this.velocity;
     }
     move() {
         this.translateX -= this.movementX;
         this.translateY -= this.movementY;
-        if (this.translateY > this.canvasHeight || this.translateX < 0 || this.translateX > this.canvasWidth) {
+        if (this.translateY > this.canvasHeight + this.size*2 || this.translateX < 0 - this.size*2 || this.translateX > this.canvasWidth + this.size*2) {
             this.init();
-            this.translateY = -this.size;
+            this.translateY = -this.size*2;
         }
     }
 }
